@@ -70,13 +70,17 @@ h1 {
 
 header {
     background: #136c72;
-    padding: .5em 0;
+    padding: 1em 0;
 }
 
 .nav__list {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+}
+.nav__item{
+    margin-right: 1rem;
 }
 
 .nav__link {
@@ -131,3 +135,4 @@ header {
     color: #fff;
     background-color: #136c72;
 }
+
