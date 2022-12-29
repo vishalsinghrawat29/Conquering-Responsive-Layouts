@@ -72,9 +72,7 @@ header {
     background: #136c72;
     padding: 1em 0;
 }
-.logo{
-    margin-right: 1rem;
-}
+
 .nav{
     display: flex;
     justify-content: space-between;
@@ -86,6 +84,9 @@ header {
     padding: 0;
     list-style: none;
     display: flex;
+}
+.nav__list--primary{
+    margin: 0 auto;
 }
 .nav__item +.nav__item{
     margin-left: 1rem;
