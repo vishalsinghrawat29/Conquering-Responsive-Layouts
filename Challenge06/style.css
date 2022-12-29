@@ -72,9 +72,14 @@ header {
     background: #136c72;
     padding: 1em 0;
 }
+.logo{
+    margin-right: 1rem;
+}
 .nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
 }
 .nav__list {
     margin: 0;
