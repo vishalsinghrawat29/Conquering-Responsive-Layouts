@@ -60,18 +60,36 @@ h1 {
     background-color: #23424A;
     color: #FFF;
 }
-
-.hero__text { 
-    width: 62%;
+.main-content{
+    padding: 100px 0;
+}
+.feature-box{
+    margin: 2rem 1rem 4rem 1rem;
 }
 
+.hero__text { 
+    width: 58%;
+}
+.hero__text h2{
+    font-size: 2.25rem;
+    color: #23424A;
+}
+p{
+    line-height: 1.5;
+    font-size: 1.3125rem;
+}
 .hero__img {
-    width: 32%;
+    width: 36%;
     align-self: flex-start;
 }
 
 .hero p {
     margin-bottom: 3em;
+}
+.sidebar{
+    text-align: center;
+    background-color: #136C72;
+    color: #FFF;
 }
 
 .btn {
